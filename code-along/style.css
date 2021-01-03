@@ -3,23 +3,32 @@
 }
 
 body {
-        background-image: url(https://images.unsplash.com/photo-1609263874515-e66091c2f1f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1207&q=80);
+        background-image: url(https://images.unsplash.com/photo-1609421136833-fec132954857?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60);
         background-size: cover;
 }
 
-h2+p:hover {
-        color: #D46A6A;
+section p {
+        color: #43022C;
         text-align: center;
         border: 5px solid rgba(85, 0, 0, 0.5);
         cursor: pointer;
 }
 
-p {
-        color: pink;
+img {
+        float: right;
 }
 
 p {
-        color: green;
+        line-height: 20px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 80%;
+        font-family: 'Merriweather', serif;
+}
+
+footer {
+        clear: both;
+        text-align: center;
 }
 
 li {

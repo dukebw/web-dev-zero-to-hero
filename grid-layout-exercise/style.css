@@ -5,6 +5,7 @@ a {
 
 body {
         margin: auto 0;
+        font-family: Arial;
 }
 
 .push {
@@ -128,6 +129,12 @@ li {
         }
 }
 
+.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+}
+
 /* Cover */
 .container {
         display: flex;
@@ -136,8 +143,8 @@ li {
         height: 50vh;
 }
 
-.link {
-        padding: 15px 10px;
+.cover {
+        height: 15rem;
 }
 
 /* Grid */
